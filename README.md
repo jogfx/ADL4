@@ -5,7 +5,11 @@ This approach ensures that users receive recipes that closely match their search
 
 # Key Features includes:
 **Advanced Text Processing:** Incorporates tokenization, stop word removal and lemmatization to enhane the system's understanding of user input.
+
 **Semantic Embedding Generation:** Uses SBERT to convert recipe data and user queries into vector representations, capturing the nuanced semantics of culinary terms and phrases.
+
 **Efficient Vector Search:** Employs LanceDB to perform fast and accurate vector similarity searches, quickly retrieving the most relevant recipes based on the query embeddings.
+
 **Flexible Query Handling:** Supports a variety of query types, from concise dish names to verbose descriptions and contextual requests, accommodating a broad spectrum of user needs.
+
 **User Interface:** Features a Gradio-based web interface that offers a straightforward and intuitive way for users to interact with the system, enter queries, and view recipe suggestions.
